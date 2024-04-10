@@ -39,3 +39,10 @@ console.log(nr)
 //Multiply the result by the third number
 let n3n = (nr * n3);
 console.log (n3n)
+
+//Find the remainder of dividing the result by the fourth number
+let n4n = (n3n / n4);
+console.log(n4n)
+
+let nchain = (n2 - n1) * n3 / n4;
+console.log(nchain)
