@@ -53,3 +53,50 @@ console.log(`Changed the way isOver25 calculates to ${lessThan25}`)
 
 
 //Part 2: Practical Math
+//Variables list
+const mi = 1500;
+
+const mph55 = 55;
+const mph60 = 60;
+const mph75 = 75;
+
+const mpg30 = 30;
+const mpg28 = 28;
+const mpg23 = 23;
+
+const bud = 175;
+const cpg = 3;
+
+//Scenario 1: 1500m @ 55mph
+//How many gallons of fuel will you need for the entire trip?
+let galneed1 = (mi / mpg30);
+console.log(galneed1)
+
+//Will your budget be enough to cover the fuel expense?
+
+
+//How long will the trip take, in hours?
+
+
+
+//Scenario 2: 1500m @ 60mph
+//How many gallons of fuel will you need for the entire trip?
+
+
+//Will your budget be enough to cover the fuel expense?
+
+
+//How long will the trip take, in hours?
+
+
+//Scenario 3: 1500m @ 75mph
+//How many gallons of fuel will you need for the entire trip?
+
+
+//Will your budget be enough to cover the fuel expense?
+
+
+//How long will the trip take, in hours?
+
+
+//Which makes the most sense for the trip?
