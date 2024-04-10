@@ -27,3 +27,7 @@ console.log(isValid)
 //Check if all numbers are divisible by 5.
 let allNumBy5 = (n1, n2, n3, n4) % 5 === 0;
 console.log(allNumBy5)
+
+//Check if the first number is larger than the last.
+let n1n4 = (n1 > n4);
+console.log(n1n4)
