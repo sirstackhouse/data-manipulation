@@ -23,3 +23,7 @@ console.log(isUnique) // true
 // Here, we put the results into a single variable
 const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 console.log(isValid)
+
+//Check if all numbers are divisible by 5.
+let allNumBy5 = (n1, n2, n3, n4) % 5 === 0;
+console.log(allNumBy5)
