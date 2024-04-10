@@ -6,7 +6,7 @@ const n4 = 5;
 
 // Check one: add up to 50?
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
-console.log(isSum50) // true
+console.log(`The four numbers add up to 50 ${isSum50}`) // true
 
 // Check two: at least two odd numbers?
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
@@ -46,3 +46,10 @@ console.log(n4n)
 
 let nchain = (n2 - n1) * n3 / n4;
 console.log(nchain)
+
+//Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
+let lessThan25 = (n1, n2, n3, n4) < 25;
+console.log(lessThan25)
+
+
+//Part 2: Practical Math
