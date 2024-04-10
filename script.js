@@ -33,5 +33,9 @@ let n1n4 = (n1 > n4);
 console.log(n1n4)
 
 //Subtract first number from second number
-let nr = (n1-n2);
+let nr = (n2-n1);
 console.log(nr)
+
+//Multiply the result by the third number
+let n3n = (nr * n3);
+console.log (n3n)
