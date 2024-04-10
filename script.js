@@ -31,3 +31,7 @@ console.log(allNumBy5)
 //Check if the first number is larger than the last.
 let n1n4 = (n1 > n4);
 console.log(n1n4)
+
+//Subtract first number from second number
+let nr = (n1-n2);
+console.log(nr)
