@@ -70,20 +70,21 @@ const cpg = 3;
 //Scenario 1: 1500m @ 55mph
 //How many gallons of fuel will you need for the entire trip?
 let galneed1 = (mi / mpg30);
-console.log(galneed1) // 50 gallons
+console.log(`The amount of fuel needed is 50 gallons according to: ${galneed1}`) // 50 gallons
 
 //Will your budget be enough to cover the fuel expense?
 let fuelex1 = bud > (galneed1 * cpg);
-console.log(fuelex1) // true
+console.log(`The amount of fuel needed does not exceed the budget according to: ${fuelex1}`) // true
 
 //How long will the trip take, in hours?
 let thours1 = Math.round(mi / mph55);
-console.log(thours1)
+console.log(`The trip will take 27 hours according to: ${thours1}`) // 27
 
 
 //Scenario 2: 1500m @ 60mph
 //How many gallons of fuel will you need for the entire trip?
-
+let galneed2 = Math.round(mi / mpg28);
+console.log(galneed2)
 
 //Will your budget be enough to cover the fuel expense?
 
