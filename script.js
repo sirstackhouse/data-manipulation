@@ -98,10 +98,11 @@ console.log(`The trip will take 25 hours according to: ${thours2}`) // 25
 //Scenario 3: 1500m @ 75mph
 //How many gallons of fuel will you need for the entire trip?
 let galneed3 = Math.round(mi / mpg23);
-console.log(galneed3)
+console.log(`The amount of fuel needed for the trip is 65 gallons according to: ${galneed3}`) // 65
 
 //Will your budget be enough to cover the fuel expense?
-
+let fuelex3 = bud > (galneed3 * cpg);
+console.log(`There is not enough in the budget for this trip according to: ${fuelex3}`) // false
 
 //How long will the trip take, in hours?
 
