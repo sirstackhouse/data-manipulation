@@ -105,6 +105,7 @@ let fuelex3 = bud > (galneed3 * cpg);
 console.log(`There is not enough in the budget for this trip according to: ${fuelex3}`) // false
 
 //How long will the trip take, in hours?
-
+let thours3 = Math.round(mi / mph75);
+console.log(`At 75mph the trip will take 20 hours according to: ${thours3}`) // 20
 
 //Which makes the most sense for the trip?
