@@ -109,3 +109,5 @@ let thours3 = Math.round(mi / mph75);
 console.log(`At 75mph the trip will take 20 hours according to: ${thours3}`) // 20
 
 //Which makes the most sense for the trip?
+let results = (`At 60 miles per hour, this makes the most sense for the trip. You have the ability to reach the destination sooner while remaining within budget.`)
+console.log(results)
