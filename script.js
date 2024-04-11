@@ -92,7 +92,8 @@ console.log(fuelex2) // true
 
 
 //How long will the trip take, in hours?
-
+let thours2 = Math.round(mi / mph60);
+console.log(thours2) // 25
 
 //Scenario 3: 1500m @ 75mph
 //How many gallons of fuel will you need for the entire trip?
