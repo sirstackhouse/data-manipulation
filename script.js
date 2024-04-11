@@ -70,10 +70,11 @@ const cpg = 3;
 //Scenario 1: 1500m @ 55mph
 //How many gallons of fuel will you need for the entire trip?
 let galneed1 = (mi / mpg30);
-console.log(galneed1)
+console.log(galneed1) // 50 gallons
 
 //Will your budget be enough to cover the fuel expense?
-
+let fuelex1 = bud > (galneed1 * cpg);
+console.log(fuelex1)
 
 //How long will the trip take, in hours?
 
