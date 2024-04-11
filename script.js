@@ -74,10 +74,11 @@ console.log(galneed1) // 50 gallons
 
 //Will your budget be enough to cover the fuel expense?
 let fuelex1 = bud > (galneed1 * cpg);
-console.log(fuelex1)
+console.log(fuelex1) // true
 
 //How long will the trip take, in hours?
-
+let thours1 = Math.round(mi / mph55);
+console.log(thours1)
 
 
 //Scenario 2: 1500m @ 60mph
